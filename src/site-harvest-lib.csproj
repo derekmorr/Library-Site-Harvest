@@ -5,7 +5,7 @@
     <AssemblyTitle>Harvest Library</AssemblyTitle>
     <AssemblyVersion>1.0.0</AssemblyVersion>
     <AssemblyDescription>Harvest Library for LANDIS-II</AssemblyDescription>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject />
@@ -14,11 +14,11 @@
     <Reference Include="Edu.Wisc.Forest.Flel.Util">
       <HintPath>..\lib\Edu.Wisc.Forest.Flel.Util.dll</HintPath>
     </Reference>
-    <ProjectReference Include="../../landis-core-model/model/core/src/Core.csproj" />
-    <ProjectReference Include="../../Library-Age-Cohort/src/age cohort.csproj" />
-    <ProjectReference Include="../../Library-Base-Cohort/src/base-cohort.csproj" />
-    <ProjectReference Include="../../Library-Succession/src/library-succession.csproj" />
-    <ProjectReference Include="../../Library-Spatial/src/api/Landis_SpatialModeling.csproj" />
+    <PackageReference Include="Landis.Core" Version="1.0.0-CI00001" />
+    <PackageReference Include="Landis.Library.AgeOnlyCohorts" Version="1.0.0-CI00001" />
+    <PackageReference Include="Landis.Library.Cohorts" Version="1.0.0-CI00001" />
+    <PackageReference Include="Landis.Library.Succession-v5" Version="1.0.0-CI00002" />
+    <PackageReference Include="Landis.SpatialModeling" Version="1.0.0-CI00001" />    
     <PackageReference Include="log4net" Version="2.0.8" />
   </ItemGroup>
 </Project>
