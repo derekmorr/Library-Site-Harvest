@@ -20,7 +20,7 @@
     <PackageReference Include="Landis.SpatialModeling" Version="1.0.0-CI00001" />    
     <PackageReference Include="log4net" Version="2.0.8" />
 
-    <!-- Use Succession-vAGB for NECN-Hydro scenario otherwise use Succession-v5 -->
-    <PackageReference Include="Landis.Library.Succession-vAGB-Input" Version="1.0.0" />
+    <!-- Use Succession-vAGB for NECN-Hydro scenario -->
+    <PackageReference Include="Landis.Library.Succession" Version="1.0.0-CI00002" />
   </ItemGroup>
 </Project>
